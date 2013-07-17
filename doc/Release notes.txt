@@ -1,0 +1,29 @@
+Release notes
+=============
+
+Directory structure
+-------------------
+ /doc 		- 		documentation, task description, readme files
+ /data 		- 		sample data for integration testing
+ /lib 		- 		required libraries for application or testing
+ /src 		- 		source code
+ 
+Prerequisites
+------------
+
+Source code has been developed in Microsoft Visual Studio 2012 targeting .NET 4.5.
+It is possible, however, to run this code on .NET 3.5 with only configuration changes.
+
+Unit tests have been developed using NUnit 2.6.1 (library included) and executed from Jet Brains Resharper 7. 
+It is possible to run unit and integration tests from NUnit runner. Please note, if you would like to 
+run integration tests from Resharper, a shallow-copy of executed assembly must be disabled. Alternatively,
+paths to testing data in a configuration file must be adjusted. 
+
+Detailed task description and design decisions can be found in separate documents:
+
+ /doc/Task1.Readme.txt
+ /doc/Task2.Readme.txt
+ 
+Designed and developed by Oleksii Mandrychenko (oleksii.mdr@gmail.com)
+Date: 02-Oct-2012
+Time spent: 14 hours

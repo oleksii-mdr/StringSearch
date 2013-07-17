@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{94DF2973-FB2F-48D6-99B6-4598F237391A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9BF635C6-5631-4B7A-A4B5-03A9175C303C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringSearch", "app\StringSearch\StringSearch.csproj", "{4D9FDE4A-7F02-4E54-838C-53A7980DEE39}"
+EndProject 
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringSearch.Test", "test\StringSearch.Test\StringSearch.Test.csproj", "{2964F3C1-59EC-478B-846A-9F6CA16FA116}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D9FDE4A-7F02-4E54-838C-53A7980DEE39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D9FDE4A-7F02-4E54-838C-53A7980DEE39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D9FDE4A-7F02-4E54-838C-53A7980DEE39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D9FDE4A-7F02-4E54-838C-53A7980DEE39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2964F3C1-59EC-478B-846A-9F6CA16FA116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2964F3C1-59EC-478B-846A-9F6CA16FA116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2964F3C1-59EC-478B-846A-9F6CA16FA116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2964F3C1-59EC-478B-846A-9F6CA16FA116}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D9FDE4A-7F02-4E54-838C-53A7980DEE39} = {94DF2973-FB2F-48D6-99B6-4598F237391A}
+		{2964F3C1-59EC-478B-846A-9F6CA16FA116} = {9BF635C6-5631-4B7A-A4B5-03A9175C303C}
+	EndGlobalSection
+EndGlobal
